@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="algo_baru" type="budi01_gaming.py" name="budi01_gaming_client" output="screen"/>
+    <node pkg="algo_baru" type="smartguys_provider_node.py" name="smartguys_provider_node" output="screen"/>
+    <node pkg="algo_baru" type="xs_provider_node.py" name="xs_provider_node" output="screen"/>
+</launch>
